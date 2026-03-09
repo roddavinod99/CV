@@ -4,24 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
+    <title>Contact Me - Vinod Kumar Rodda</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> My Contact Details </h1>
-    <p>My fictional Address</p>
-    <p>+919848022338</p>
-    <p>My Email: roddavinod99@gmail.com</p>
-    <h3> <a href="https://twitter.com/roddavinod99">twitter</a> </h3>
-    <h3> <a href="https://www.linkedin.com/in/vinodkumarrodda/">Linkden</a></h3>
-    <hr>
-    <form action="mailto:roddavinod99@gmail.com" method="post" enctype="text/plain">
-        <label> Your Name: </label>
-        <input type="text" name="YourName " value=""><br>
-        <label> Your Email:</label>
-        <input type="email" name="YourEmail " value=""><br>
-        <label> Your message: </label><br>
-        <textarea name="YourMessage " cols="30" rows="10"></textarea><br>
-        <input type="submit">
-    </form>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#experience">Experience</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="My Hobbies.html">Hobbies</a></li>
+            <li><a href="Contact Me.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>📞 Get In Touch</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+                <div style="background-color: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+                    <strong style="display: block; margin-bottom: 0.5rem; color: #1a73e8;">📍 Location</strong>
+                    <p>KPHB Colony, Kukatpally</p>
+                    <p>Hyderabad, Telangana, India</p>
+                </div>
+                <div style="background-color: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+                    <strong style="display: block; margin-bottom: 0.5rem; color: #1a73e8;">📞 Phone</strong>
+                    <p><a href="tel:+918897325746" style="color: #1a73e8; text-decoration: none;">+91-8897325746</a></p>
+                </div>
+                <div style="background-color: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+                    <strong style="display: block; margin-bottom: 0.5rem; color: #1a73e8;">✉️ Email</strong>
+                    <p><a href="mailto:roddavinod99@gmail.com" style="color: #1a73e8; text-decoration: none;">roddavinod99@gmail.com</a></p>
+                </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;">
+                <div style="background-color: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+                    <strong style="display: block; margin-bottom: 1rem; color: #1a73e8; font-size: 1.1rem;">🔗 Professional Links</strong>
+                    <p><a href="https://www.linkedin.com/in/vinodkumarrodda/" target="_blank" style="display: block; margin: 0.5rem 0; color: #1a73e8; text-decoration: none;">→ LinkedIn Profile</a></p>
+                    <p><a href="https://twitter.com/roddavinod99" target="_blank" style="display: block; margin: 0.5rem 0; color: #1a73e8; text-decoration: none;">→ Twitter</a></p>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 3rem; margin-bottom: 1.5rem; color: #202124;">Send Me a Message</h3>
+            <form action="mailto:roddavinod99@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="YourName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="YourEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="Subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="YourMessage" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Vinod Kumar Rodda | Quality Analyst</p>
+        <p><a href="index.html">Back to Home</a></p>
+    </footer>
 </body>
 </html>
