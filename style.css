@@ -44,9 +44,7 @@ img { max-width: 100%; display: block; }
 /* --- Header (Mamba header block) --- */
 .site-header {
   position: sticky; top: 0; z-index: 50;
-  background: rgba(39, 55, 77, 0.92);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background: var(--navy);
   border-bottom: 1px solid rgba(221, 230, 237, 0.16);
 }
 .header-inner {
@@ -183,7 +181,7 @@ section[id] { scroll-margin-top: 4.5rem; }
 .section { max-width: 1120px; margin: 0 auto; padding: 4.5rem 1.5rem 0; }
 .eyebrow {
   display: inline-block; font-size: 0.76rem; font-weight: 800; letter-spacing: 0.14em;
-  color: var(--slate); background: var(--mist); border: 1px solid var(--line);
+  color: var(--slate-dark); background: var(--mist); border: 1px solid var(--line);
   padding: 0.35rem 0.85rem; border-radius: 999px; margin-bottom: 0.9rem;
 }
 .section h2 { font-family: var(--font-display); color: var(--navy); font-size: clamp(1.6rem, 3vw, 2.2rem); letter-spacing: -0.02em; margin-bottom: 0.5rem; }
@@ -232,7 +230,7 @@ section[id] { scroll-margin-top: 4.5rem; }
 .card h3 { color: var(--navy); font-family: var(--font-display); font-size: 1.02rem; margin-bottom: 0.4rem; }
 .card p { font-size: 0.92rem; }
 .edu-card { border-top: 4px solid var(--slate); }
-.edu-card .date { display: inline-block; margin-top: 0.7rem; font-size: 0.8rem; font-weight: 700; color: var(--slate); background: var(--mist); padding: 0.2rem 0.65rem; border-radius: 999px; }
+.edu-card .date { display: inline-block; margin-top: 0.7rem; font-size: 0.8rem; font-weight: 700; color: var(--slate-dark); background: var(--mist); padding: 0.2rem 0.65rem; border-radius: 999px; }
 
 /* Process steps (ordered sequence: numbered markers carry meaning) */
 .step-num {
