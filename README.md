@@ -1,4 +1,4 @@
-# Vinod Kumar Rodda — Portfolio (CV)
+# Vinod Kumar Rodda - Portfolio (CV)
 
 Personal portfolio website of **Vinod Kumar Rodda**, Quality Analyst
 (call quality auditing, RCA, process improvement).
@@ -10,18 +10,18 @@ Live site: `https://roddavinod99.github.io/CV/` (via GitHub Pages)
 | File | Description |
 | ---- | ----------- |
 | `index.html` | Single-page portfolio: hero, stats, experience timeline, achievements, audit method, skills, education, websites, languages, hobbies, contact |
-| `resume.html` | Printable résumé document with a Print / Save-as-PDF button |
+| `resume.html` | Printable resume document with a Print / Save-as-PDF button |
 | `Contact Me.html` | Contact details + direct contact actions |
 | `My Hobbies.html` | Hobbies & interests gallery |
-| `Vinod_Kumar_Rodda_Quality_Analyst_Resume.pdf` | Downloadable résumé (wired to all Download Résumé buttons) |
+| `Vinod_Kumar_Rodda_Quality_Analyst_Resume.pdf` | Downloadable resume (wired to all Download Resume buttons) |
 | `style.css` | Whole-site theme (pure CSS, no framework) |
 
 ## Design
 
-- Palette (ColorHunt): `#27374D` navy · `#526D82` slate · `#9DB2BF` muted · `#DDE6ED` mist
+- Palette (ColorHunt): `#27374D` navy | `#526D82` slate | `#9DB2BF` muted | `#DDE6ED` mist
 - Type: Sora (headings) + Inter (body) via Google Fonts
 - Components inspired by Mamba UI blocks; icons by Lucide (CDN)
-- Illustration: Open Doodles “Reading Side” by Pablo Stanley (CC0) in `Image/`
+- Illustration: Open Doodles "Reading Side" by Pablo Stanley (CC0) in `Image/`
 - Responsive breakpoints at 900px / 560px, `prefers-reduced-motion` respected,
   print stylesheet included, sticky header with scroll-margin anchors
 
@@ -37,7 +37,7 @@ python -m http.server 5500
 ## Deploy
 
 Pushed to `main` on `github.com/roddavinod99/CV.git`.
-GitHub **Settings → Pages → Deploy from a branch → `main` / root**.
+GitHub **Settings -> Pages -> Deploy from a branch -> `main` / root**.
 `.nojekyll` is included so Pages serves files as-is.
 
 ## Notes
