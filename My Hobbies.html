@@ -4,56 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Hobbies - Vinod Kumar Rodda</title>
+    <title>Hobbies — Vinod Kumar Rodda</title>
+    <meta property="og:title" content="Hobbies — Vinod Kumar Rodda">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2327374D'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='bold' fill='%23DDE6ED' text-anchor='middle'%3EVR%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#experience">Experience</a></li>
-            <li><a href="index.html#skills">Skills</a></li>
-            <li><a href="My Hobbies.html">Hobbies</a></li>
-            <li><a href="Contact Me.html">Contact</a></li>
-        </ul>
-    </nav>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html"><span class="brand-mark">VR</span><span class="brand-text"><strong>Vinod Kumar Rodda</strong><span>Quality Analyst · Hyderabad</span></span></a>
+        <nav class="site-nav" aria-label="Primary">
+          <a class="nav-link keep" href="index.html#experience">Experience</a>
+          <a class="nav-link keep" href="index.html#achievements">Impact</a>
+          <a class="nav-link" href="index.html#skills">Skills</a>
+          <a class="nav-link" href="Contact Me.html">Contact</a>
+          <a class="btn btn-primary btn-sm" href="index.html#top">Back Home</a>
+        </nav>
+      </div>
+    </header>
 
-    <main>
-        <section>
-            <h2>🎯 My Hobbies & Interests</h2>
-            <p style="font-size: 1.1rem; color: #5f6368; margin-bottom: 2rem;">When I'm not working on quality improvements and process optimization, I enjoy exploring these passions:</p>
-            
-            <div class="hobbies-grid">
-                <div class="hobby-card">
-                    <strong>⚽ Football</strong>
-                    <p style="margin-top: 0.5rem; font-size: 0.95rem;">Playing and watching football matches. A great way to stay active and enjoy team spirit!</p>
-                </div>
-                <div class="hobby-card">
-                    <strong>🏃 Running</strong>
-                    <p style="margin-top: 0.5rem; font-size: 0.95rem;">Morning and evening runs help me stay fit and clear my mind for better problem-solving.</p>
-                </div>
-                <div class="hobby-card">
-                    <strong>📺 Anime</strong>
-                    <p style="margin-top: 0.5rem; font-size: 0.95rem;">Passionate about watching anime. It's a creative medium that inspires different perspectives.</p>
-                </div>
-                <div class="hobby-card">
-                    <strong>📚 Manga</strong>
-                    <p style="margin-top: 0.5rem; font-size: 0.95rem;">Reading manga combines storytelling with visual art. A perfect blend of entertainment and creativity.</p>
-                </div>
-            </div>
+    <section class="section">
+      <span class="eyebrow">Beyond work</span>
+      <h2>Hobbies &amp; interests</h2>
+      <p class="lede">Off the QA desk — movement, matches, and stories. Balance makes better analysis.</p>
+      <div class="grid-4">
+        <div class="card hobby"><div class="emoji"><i data-lucide="trophy"></i></div><h3>Football</h3><p>Playing and watching — stamina, positioning, team spirit.</p></div>
+        <div class="card hobby"><div class="emoji"><i data-lucide="footprints"></i></div><h3>Running</h3><p>Morning and evening runs for fitness and clear-headed RCA.</p></div>
+        <div class="card hobby"><div class="emoji"><i data-lucide="tv"></i></div><h3>Anime</h3><p>A creative medium that sharpens perspective and empathy.</p></div>
+        <div class="card hobby"><div class="emoji"><i data-lucide="book-open"></i></div><h3>Manga</h3><p>Storytelling plus visual art — structure meets imagination.</p></div>
+      </div>
+      <div class="card" style="margin-top:1.2rem;text-align:center">
+        <h3>Fun fact</h3>
+        <p>Field, road, or page — I bring the same eye for patterns from audits to everything I enjoy.</p>
+      </div>
+    </section>
 
-            <div style="margin-top: 3rem; padding: 2rem; background-color: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); text-align: center;">
-                <h3 style="color: #1a73e8; margin-bottom: 1rem;">Fun Fact</h3>
-                <p style="font-size: 1rem; color: #5f6368;">Whether it's on the field, the road, or immersed in anime and manga, I believe balance between work and personal interests leads to a more fulfilling and productive life!</p>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Vinod Kumar Rodda | Quality Analyst</p>
-        <p><a href="index.html">Back to Home</a></p>
+      <div class="footer-inner">
+        <div><strong>Vinod Kumar Rodda</strong><br><span>Quality Analyst · Call Auditing · RCA</span></div>
+        <div><a href="index.html">Back to home ↑</a></div>
+      </div>
+      <div class="footer-bottom">© 2026 Vinod Kumar Rodda</div>
     </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>lucide.createIcons();</script>
 </body>
 </html>
