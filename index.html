@@ -37,6 +37,7 @@
         <a class="nav-link keep" href="#achievements">Impact</a>
         <a class="nav-link" href="#skills">Skills</a>
         <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#websites">Websites</a>
         <a class="nav-link" href="#hobbies">Hobbies</a>
         <a class="nav-link" href="#contact">Contact</a>
       </nav>
@@ -59,6 +60,18 @@
           <a href="mailto:roddavinod99@gmail.com">Email</a>
           <a href="https://www.linkedin.com/in/vinodkumarrodda/" target="_blank" rel="noopener">LinkedIn</a>
           <a href="tel:+918897325746">+91-8897325746</a>
+          <details class="share">
+            <summary><i data-lucide="share-2"></i> Share</summary>
+            <div class="share-menu">
+              <button type="button" data-native-share hidden>Share via…</button>
+              <a data-share="linkedin" target="_blank" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Froddavinod99.github.io%2FCV%2F">LinkedIn</a>
+              <a data-share="x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Froddavinod99.github.io%2FCV%2F&text=Vinod%20Kumar%20Rodda%20%E2%80%94%20Quality%20Analyst">X (Twitter)</a>
+              <a data-share="whatsapp" target="_blank" rel="noopener" href="https://wa.me/?text=Vinod%20Kumar%20Rodda%20%E2%80%94%20Quality%20Analyst%20https%3A%2F%2Froddavinod99.github.io%2FCV%2F">WhatsApp</a>
+              <a data-share="facebook" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Froddavinod99.github.io%2FCV%2F">Facebook</a>
+              <a data-share="telegram" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Froddavinod99.github.io%2FCV%2F&text=Vinod%20Kumar%20Rodda%20%E2%80%94%20Quality%20Analyst">Telegram</a>
+              <button type="button" data-copy-link>Copy link</button>
+            </div>
+          </details>
         </div>
       </div>
       <div class="profile-card">
@@ -194,6 +207,27 @@
     </div>
   </section>
 
+  <!-- Websites -->
+  <section class="section" id="websites">
+    <span class="eyebrow">Projects</span>
+    <h2>My websites</h2>
+    <p class="lede">Two developer platforms I build and run.</p>
+    <div class="grid-2">
+      <div class="card">
+        <div class="icon"><i data-lucide="globe"></i></div>
+        <h3>DevStackIO</h3>
+        <p>My blog on developer tools, AI, Cloud &amp; DevOps — practical guides and tutorials.</p>
+        <p style="margin-top:0.8rem"><a href="https://www.devstackio.com/" target="_blank" rel="noopener"><b>Visit devstackio.com →</b></a></p>
+      </div>
+      <div class="card">
+        <div class="icon"><i data-lucide="wrench"></i></div>
+        <h3>DevStackIO Tools</h3>
+        <p>172 free developer tools — encoders, formatters, generators and converters. 100% client-side, no login.</p>
+        <p style="margin-top:0.8rem"><a href="https://tools.devstackio.com/" target="_blank" rel="noopener"><b>Visit tools.devstackio.com →</b></a></p>
+      </div>
+    </div>
+  </section>
+
   <!-- Languages -->
   <section class="section" id="languages">
     <span class="eyebrow">Profile</span>
@@ -237,6 +271,18 @@
           <a class="btn btn-outline" href="tel:+918897325746">Call Me</a>
           <a class="btn btn-outline" href="https://www.linkedin.com/in/vinodkumarrodda/" target="_blank" rel="noopener">LinkedIn</a>
         </div>
+        <details class="share share-light">
+          <summary class="btn btn-outline"><i data-lucide="share-2"></i> Share this portfolio</summary>
+          <div class="share-menu">
+            <button type="button" data-native-share hidden>Share via…</button>
+            <a data-share="linkedin" target="_blank" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Froddavinod99.github.io%2FCV%2F">LinkedIn</a>
+            <a data-share="x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Froddavinod99.github.io%2FCV%2F&text=Vinod%20Kumar%20Rodda%20%E2%80%94%20Quality%20Analyst">X (Twitter)</a>
+            <a data-share="whatsapp" target="_blank" rel="noopener" href="https://wa.me/?text=Vinod%20Kumar%20Rodda%20%E2%80%94%20Quality%20Analyst%20https%3A%2F%2Froddavinod99.github.io%2FCV%2F">WhatsApp</a>
+            <a data-share="facebook" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Froddavinod99.github.io%2FCV%2F">Facebook</a>
+            <a data-share="telegram" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Froddavinod99.github.io%2FCV%2F&text=Vinod%20Kumar%20Rodda%20%E2%80%94%20Quality%20Analyst">Telegram</a>
+            <button type="button" data-copy-link>Copy link</button>
+          </div>
+        </details>
       </div>
     </div>
   </section>
@@ -252,6 +298,39 @@
   <script src="https://unpkg.com/lucide@latest"></script>
   <script>
     lucide.createIcons();
+    (function () {
+      var pageUrl = encodeURIComponent(location.href.split('#')[0]);
+      var pageTitle = encodeURIComponent(document.title);
+      var targets = {
+        linkedin: 'https://www.linkedin.com/sharing/share-offsite/?url=' + pageUrl,
+        x: 'https://twitter.com/intent/tweet?url=' + pageUrl + '&text=' + pageTitle,
+        whatsapp: 'https://wa.me/?text=' + pageTitle + '%20' + pageUrl,
+        facebook: 'https://www.facebook.com/sharer/sharer.php?u=' + pageUrl,
+        telegram: 'https://t.me/share/url?url=' + pageUrl + '&text=' + pageTitle
+      };
+      document.querySelectorAll('[data-share]').forEach(function (a) {
+        var key = a.getAttribute('data-share');
+        if (targets[key]) a.href = targets[key];
+      });
+      if (navigator.share) {
+        document.querySelectorAll('[data-native-share]').forEach(function (b) {
+          b.hidden = false;
+          b.addEventListener('click', function () {
+            navigator.share({ title: document.title, url: location.href }).catch(function () {});
+          });
+        });
+      }
+      document.querySelectorAll('[data-copy-link]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          function done(ok) {
+            b.textContent = ok ? 'Link copied ✓' : 'Copy failed';
+            setTimeout(function () { b.textContent = 'Copy link'; }, 2000);
+          }
+          if (navigator.clipboard) { navigator.clipboard.writeText(location.href).then(function () { done(true); }, function () { done(false); }); }
+          else { done(false); }
+        });
+      });
+    })();
     document.getElementById('copy-email').addEventListener('click', function () {
       var btn = this;
       function done() {
