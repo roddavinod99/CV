@@ -1,23 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://roddavinod99.github.io/CV/</loc>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://roddavinod99.github.io/CV/" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://roddavinod99.github.io/CV/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://roddavinod99.github.io/CV/" />
   </url>
   <url>
     <loc>https://roddavinod99.github.io/CV/resume.html</loc>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://roddavinod99.github.io/CV/resume.html" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://roddavinod99.github.io/CV/resume.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://roddavinod99.github.io/CV/resume.html" />
   </url>
   <url>
-    <loc>https://roddavinod99.github.io/CV/Contact%20Me.html</loc>
+    <loc>https://roddavinod99.github.io/CV/contact.html</loc>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://roddavinod99.github.io/CV/contact.html" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://roddavinod99.github.io/CV/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://roddavinod99.github.io/CV/contact.html" />
   </url>
   <url>
-    <loc>https://roddavinod99.github.io/CV/My%20Hobbies.html</loc>
+    <loc>https://roddavinod99.github.io/CV/hobbies.html</loc>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://roddavinod99.github.io/CV/hobbies.html" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://roddavinod99.github.io/CV/hobbies.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://roddavinod99.github.io/CV/hobbies.html" />
   </url>
 </urlset>

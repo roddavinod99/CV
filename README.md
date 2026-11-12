@@ -11,8 +11,8 @@ Live site: `https://roddavinod99.github.io/CV/` (via GitHub Pages)
 | ---- | ----------- |
 | `index.html` | Single-page portfolio: hero, stats, experience timeline, achievements, audit method, skills, education, websites, languages, hobbies, contact |
 | `resume.html` | Printable resume document with a Print / Save-as-PDF button |
-| `Contact Me.html` | Contact details + direct contact actions |
-| `My Hobbies.html` | Hobbies & interests gallery |
+| `contact.html` | Contact details + direct contact actions |
+| `hobbies.html` | Hobbies & interests gallery |
 | `Vinod_Kumar_Rodda_Quality_Analyst_Resume.pdf` | Downloadable resume (wired to all Download Resume buttons) |
 | `style.css` | Whole-site theme (pure CSS, no framework) |
 

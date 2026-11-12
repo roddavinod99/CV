@@ -1,0 +1,23 @@
+{
+  "name": "Vinod Kumar Rodda - Quality Analyst Portfolio",
+  "short_name": "Vinod Rodda QA",
+  "description": "Portfolio of Vinod Kumar Rodda, Quality Analyst specialising in call quality auditing, RCA and process improvement.",
+  "start_url": "/CV/",
+  "display": "standalone",
+  "background_color": "#27374D",
+  "theme_color": "#27374D",
+  "orientation": "portrait-primary",
+  "scope": "/CV/",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2327374D'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='bold' fill='%23DDE6ED' text-anchor='middle'%3EVR%3C/text%3E%3C/svg%3E",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "en-IN",
+  "dir": "ltr",
+  "screenshots": []
+}

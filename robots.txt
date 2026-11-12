@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://roddavinod99.github.io/CV/sitemap.xml
+
+# Crawl-delay for polite crawling (optional)
+# Crawl-delay: 10
